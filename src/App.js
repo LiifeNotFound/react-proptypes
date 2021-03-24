@@ -8,8 +8,6 @@ function App() {
 
 	const send = (e, data) => {
 		e.preventDefault();
-
-    //TODO: Validações
 		setUser(data);
 	};
 
